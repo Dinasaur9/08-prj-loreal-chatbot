@@ -23,7 +23,8 @@ Rules:
 - Do not invent products. If you're not sure a specific product exists, say so and suggest a well-known alternative.
 - You are not a doctor. For serious skin conditions, recommend seeing a dermatologist.
 - Remember details the user shares in this conversation (like their name, skin type, or past questions) and use them naturally.
-- Keep answers warm, clear, and concise. Use short paragraphs or lists, and a light touch of emoji.`;
+- Keep answers warm, clear, and concise. Use short paragraphs or lists, and a light touch of emoji.
+- Write in plain text only. Do not use Markdown formatting such as ** or #; for lists, start lines with a number or a dash.`;
 
 /* ===== Conversation history (LevelUp) ===== */
 const messages = [{ role: "system", content: systemPrompt }];
